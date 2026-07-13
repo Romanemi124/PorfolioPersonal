@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Emilio Román | Portfolio</title>
+  <meta
+    name="description"
+    content="Portfolio personal Emilio Román."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio">
+      <span>ER</span>
+    </a>
+
+    <button
+      class="menu-button"
+      type="button"
+      aria-label="Abrir menú"
+      aria-expanded="false"
+      aria-controls="main-navigation"
+    >
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav id="main-navigation" class="main-nav">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#formacion">Formación</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero section">
+      <div class="hero-glow hero-glow-one"></div>
+      <div class="hero-glow hero-glow-two"></div>
+
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Portfolio personal · 2026</p>
+
+        <h1>
+          <span>Emilio</span>
+          <span class="outlined">Román</span>
+        </h1>
+
+        <p class="hero-description">
+          Graduado en Ingeniería Informática y Técnico Superior en Desarrollo
+          de Aplicaciones Multiplataforma. Desarrollo software, soluciones con
+          inteligencia artificial y sigo formándome en tecnologías cloud.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#proyectos">Ver proyectos</a>
+          <a
+            class="button button-secondary"
+            href="https://github.com/Romanemi124"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="portrait-card">
+          <div class="portrait-shape portrait-shape-one"></div>
+          <div class="portrait-shape portrait-shape-two"></div>
+          <div class="portrait-center">
+            <span>SOFTWARE</span>
+            <strong>DEVELOPER</strong>
+          </div>
+        </div>
+
+        <div class="floating-label floating-label-top">AI</div>
+        <div class="floating-label floating-label-bottom">CLOUD</div>
+      </div>
+
+      <a class="scroll-indicator" href="#sobre-mi">
+        <span>Scroll</span>
+        <i></i>
+      </a>
+    </section>
+
+    <section id="sobre-mi" class="about section">
+      <div class="section-heading reveal">
+        <span class="section-number">01</span>
+        <p>Sobre mí</p>
+      </div>
+
+      <div class="about-grid">
+        <h2 class="reveal">
+          CONSTRUYO
+          <span>PRODUCTOS</span>
+          DIGITALES.
+        </h2>
+
+        <div class="about-text reveal">
+          <p>
+            Me interesa transformar ideas en aplicaciones útiles, claras y
+            funcionales. He trabajado en proyectos relacionados con
+            inteligencia artificial, procesamiento documental y gestión de
+            datos.
+          </p>
+
+          <p>
+            Actualmente continúo aprendiendo sobre cloud computing,
+            arquitectura de software y despliegue de aplicaciones.
+          </p>
+
+          <div class="skill-list">
+            <span>Python</span>
+            <span>Java</span>
+            <span>SQL</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="projects section">
+      <div class="section-heading reveal">
+        <span class="section-number">02</span>
+        <p>Mis proyectos</p>
+      </div>
+
+      <div class="projects-title reveal">
+        <h2>MEJORES<br />PROYECTOS</h2>
+        <p>
+          Tres proyectos que representan mi forma de diseñar, desarrollar y
+          resolver problemas.
+        </p>
+      </div>
+
+      <article class="project project-featured reveal">
+        <div class="project-index">01</div>
+
+        <div class="project-content">
+          <p class="project-type">TFG · Procesamiento automático de documentos</p>
+          <h3>Simuloteca3D</h3>
+          <p>
+            Aplicación web en colaboración con Grupo ARIES y el Hospital Gregorio Marañón.
+            Plataforma para extraer, organizar y procesar información de
+            documentos médicos en PDF y PowerPoint, incluyendo texto, tablas,
+            imágenes y detección de duplicados.
+          </p>
+
+          <div class="project-tags">
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>Streamlit</span>
+            <span>Procesamiento documental</span>
+          </div>
+
+          <a
+            class="project-link"
+            href="https://github.com/Romanemi124/Simuloteca3D"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Ver en GitHub
+            <span>↗</span>
+          </a>
+        </div>
+
+        <div class="project-art project-art-medical">
+          <div class="document document-one"></div>
+          <div class="document document-two"></div>
+          <div class="scan-line"></div>
+        </div>
+
+        <div class="project-collaborators">
+          <p>En colaboración con</p>
+          <div class="logos">
+            <img src="assets/logos/IMG_0979.PNG">
+              <img src="assets/logos/IMG_0980.JPG">
+              <img src="assets/logos/IMG_0982.JPG">
+              <img src="assets/logos/IMG_0984.JPG">
+              <img src="assets/logos/IMG_0986.JPG">
+          </div>
+        </div>
+      </article>
+      
+      <article class="project project-light reveal">
+        <div class="project-index">02</div>
+
+        <div class="project-content">
+          <p class="project-type">Gestión · Aplicación de escritorio</p>
+          <h3>Zentry</h3>
+          <p>
+            Sistema local para gestionar clientes, cuotas, pagos, deuda e
+            informes exportables a Excel, diseñado para simplificar procesos
+            administrativos.
+          </p>
+
+          <div class="project-tags">
+            <span>Python</span>
+            <span>SQLite</span>
+            <span>Pandas</span>
+            <span>Excel</span>
+          </div>
+
+          <a
+            class="project-link"
+            href="https://github.com/Romanemi124/Zentry"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Ver en GitHub
+            <span>↗</span>
+          </a>
+        </div>
+
+        <div class="project-art project-art-zentry">
+          <div class="dashboard-window">
+            <div class="window-bar"></div>
+            <div class="dashboard-content">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="project project-dark reveal">
+        <div class="project-index">03</div>
+
+        <div class="project-content">
+          <p class="project-type">Moda · Inteligencia artificial</p>
+          <h3>Stussy AI</h3>
+          <p>
+            Proyecto experimental que combina inteligencia artificial,
+            creatividad y moda dentro de una experiencia digital visual.
+          </p>
+
+          <div class="project-tags">
+            <span>AI</span>
+            <span>Fashion Tech</span>
+            <span>Diseño visual</span>
+          </div>
+
+          <a
+            class="project-link"
+            href="https://github.com/Romanemi124/Stussy-AI"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Ver en GitHub
+            <span>↗</span>
+          </a>
+        </div>
+
+        <div class="project-art project-art-fashion">
+          <div class="fashion-circle"></div>
+          <div class="fashion-card">STUSSY<br />AI</div>
+          <div class="fashion-grid"></div>
+        </div>
+      </article>
+    </section>
+
+    <section id="formacion" class="education section">
+      <div class="section-heading reveal">
+        <span class="section-number">03</span>
+        <p>Formación</p>
+      </div>
+
+      <div class="education-grid">
+        <div class="education-intro reveal">
+          <h2>FORMACIÓN<br />Y EVOLUCIÓN</h2>
+          <p>
+            Una base técnica sólida y una formación continua orientada hacia
+            el desarrollo de software y cloud.
+          </p>
+        </div>
+
+        <div class="education-list">
+          <article class="education-item reveal">
+            <span>01</span>
+            <div>
+              <h3>Grado en Ingeniería Informática</h3>
+              <p>Formación universitaria</p>
+            </div>
+          </article>
+
+          <article class="education-item reveal">
+            <span>02</span>
+            <div>
+              <h3>Desarrollo de Aplicaciones Multiplataforma</h3>
+              <p>Técnico Superior · DAM</p>
+            </div>
+          </article>
+
+          <article class="education-item reveal">
+            <span>03</span>
+            <div>
+              <h3>Actualmente aprendiendo</h3>
+              <p>Cloud computing · Arquitectura de software · Despliegue</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact section">
+      <div class="contact-card reveal">
+        <p class="eyebrow">Contacto</p>
+        <h2>HABLEMOS.</h2>
+        <p>
+          Puedes encontrar mis proyectos en GitHub o contactar conmigo para
+          conocer más sobre mi perfil.
+        </p>
+
+        <div class="contact-links">
+          <a
+            href="https://github.com/Romanemi124"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub ↗
+          </a>
+          <a href="mailto:emiliojromanrosales@gmail.com">Email ↗</a>
+          <a
+            href="https://www.linkedin.com/in/emilio-jose-roman-rosales/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Linkedin ↗
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="current-year"></span> Emilio Román</p>
+    <a href="#inicio">Volver arriba ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
